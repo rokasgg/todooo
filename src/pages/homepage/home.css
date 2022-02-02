@@ -1,0 +1,178 @@
+.homeBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+  /* border: solid 1px rgb(3, 255, 87); */
+  /* width: 400px; */
+    padding: 4rem 0 0 0;
+
+
+}
+.addTaskFields {
+  width: 450px;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  justify-items: center;
+  align-items: center;
+  /* border: solid 1px rgb(3, 255, 87); */
+  background-color: #ffffff;
+  border-radius: 6px 6px 6px 6px;
+
+  }
+.todoInput{
+    
+    width: 90%;
+    padding:  0px 0px 0px 10px;
+
+    height: 2rem;
+    border-radius: 6px 0px 0px 6px;
+    border: none;
+   
+}
+
+
+
+.addButt{
+    background-color: #f31e1e00;
+    width: 50px;
+    height: 2rem;
+    display: flex;
+
+    border-radius: 3px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    /* border: solid 1px rgb(255, 255, 255); */
+    /* margin: 5px; */
+    border-radius: 0px 6px 6px 0px;
+    color: rgba(255, 255, 255, 0);
+}
+.addButt:hover{
+    background-color: rgba(255, 255, 255, 0.479);
+    cursor: pointer;
+}
+
+.todoListField{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    /* justify-items: center; */
+    /* align-items: center; */
+    /* border: solid 1px rgb(3, 255, 87); */
+}
+.todo{
+    border-radius: 6px 0px   0px 6px;
+
+    display: flex;
+    width: 65%;
+    padding:  0px 0px 0px 10px;
+    height: 2rem;
+    /* background-color: rgb(231, 79, 79); */
+    margin-bottom: 7px;
+    text-align: start;
+    align-items: center;
+    color: black;
+    font-weight: 600;
+ 
+}
+.todo:visited {
+
+    background-color: rgb(39, 253, 86);
+ 
+}
+.todoTEST{
+    border-radius: 6px 0px   0px 6px;
+    
+    transition:  0.5s ease-in-out;
+    background-color: rgb(241, 120, 120);
+    display: flex;
+    width: 65%;
+    padding:  0px 0px 0px 10px;
+    height: 2rem;
+    
+    margin-bottom: 7px;
+    text-align: start;
+    align-items: center;
+    color: black;
+    font-weight: 600;
+}
+
+
+
+.taskField{
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(231, 231, 231);
+    border-radius: 6px 6px  6px 6px;
+    margin:0 0 .5rem 0;
+}
+
+.taskFieldDelete{
+    height: 2rem;
+    transition:  0.5s ease-in-out;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(245, 73, 73);
+    border-radius: 6px 6px   6px 6px;
+    margin:0 0 .5rem 0;
+}
+.taskFieldFinish{
+    height: 2rem;
+    transition:  0.5s ease-in-out;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(50, 248, 109);
+    border-radius: 6px 6px   6px 6px;
+    margin:0 0 .5rem 0;
+}
+
+
+
+
+
+
+.ProfileSide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profileBox{
+    width: 15rem;
+  /* border: solid 1px rgb(3, 255, 87); */
+
+}
+.statsBox{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 1rem 2rem 1rem;
+    /* background-color: aquamarine; */
+    font-weight: 500;
+    font-size: small;
+}
+.statsBox > div  {
+ display: flex;
+ flex-direction: column;
+}
+.statsBox > div > a {
+    font-weight: 700;
+    font-size: large;
+}
+
+.profilePicture{
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+    border: solid 4px white ;
+    margin:0 0 1rem 0
+
+}
+.profileName{
+    padding:0 0 1rem 0;
+    font-weight: 600;
+    font-size: large;
+}
